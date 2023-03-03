@@ -1,0 +1,1008 @@
+{
+  "Platform": "PS 2",
+  "titles": [
+    {
+      "name": "007: Everything or Nothing",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "007: NightFire",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Ace Combat 04: Shattered Skies",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Ace Combat 5: The Unsung War",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Ace Combat Zero: The Belkan War",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Ape Escape 2",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Ape Escape 3",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Area 51",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Baldur's Gate: Dark Alliance",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Baldur's Gate: Dark Alliance II",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Battlefield 2: Modern Combat",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Beyond Good & Evil",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Black",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Bloody Roar 3",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Breath of Fire: Dragon Quarter",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Brothers in Arms: Road to Hill 30",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Bully",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Burnout 3: Takedown",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Capcom vs. SNK 2: Mark of the Millennium 2001",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Castlevania: Curse of Darkness",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Castlevania: Lament of Innocence",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Champions of Norrath",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Contra: Shattered Soldier",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "DOA2: Hardcore",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Dark Cloud",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Dark Cloud 2",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Def Jam: Fight for NY",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Devil May Cry",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Devil May Cry 3: Special Edition",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Devil Summoner 2: Raidou Kuzunoha vs. King Abaddon",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Devil Summoner: Raidou Kuzunoha vs. the Soulless Army",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Digital Devil Saga",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Digital Devil Saga 2",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Disgaea 2: Cursed Memories",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Disgaea: Hour of Darkness",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Dragon Ball Z: Budokai 3",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Dragon Ball Z: Budokai Tenkaichi 3",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Dragon Quest V: Tenkuu no Hanayome (English Patched)",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Dragon Quest VIII: Journey of the Cursed King",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Fatal Frame",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Fatal Frame II: Crimson Butterfly",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Fatal Frame III: The Tormented",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Final Fantasy X",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Final Fantasy X-2",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Final Fantasy XII International: Zodiac Job System (English Patched)",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Forbidden Siren 2",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Freedom Fighters",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Front Mission 4",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Front Mission 5: Scars of the War (English Patched)",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Giants: Citizen Kabuto",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Gitaroo Man",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "God Hand",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "God of War",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "God of War II",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Gradius V",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Gran Turismo 4",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Grand Theft Auto III",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Grand Theft Auto: San Andreas",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Grand Theft Auto: Vice City",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Grandia III",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Gregory Horror Show",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "GrimGrimoire",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Growlanser Generations",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Guilty Gear XX Accent Core Plus",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Half-Life",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Harvest Moon: Save the Homeland",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Hitman 2: Silent Assassin",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Hitman: Blood Money",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Hitman: Contracts",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "ICO",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Indigo Prophecy",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Jak 3",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Jak II",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Jak X: Combat Racing",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Jak and Daxter: The Precursor Legacy",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Katamari Damacy",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Killzone",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Kingdom Hearts",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Kingdom Hearts II: Final Mix+ (English Patched)",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Kingdom Hearts Re:Chain of Memories",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Klonoa 2: Lunatea's Veil",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "LEGO Star Wars",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "LEGO Star Wars II: The Original Trilogy",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "La Pucelle: Tactics",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Makai Kingdom: Chronicles of the Sacred Tome",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Marvel vs. Capcom 2",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Max Payne",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Maximo vs. Army of Zin",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Maximo: Ghosts to Glory",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Medal of Honor Frontline",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Mercenaries: Playground of Destruction",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Metal Arms: Glitch in the System",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Metal Gear Solid 2: Sons of Liberty",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Metal Gear Solid 3: Snake Eater",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Metal Slug Anthology",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Midnight Club 3: DUB Edition Remix",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Monster Rancher 3",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Monster Rancher 4",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Mortal Kombat: Deception",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Mortal Kombat: Shaolin Monks",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Namco x Capcom (English Patched)",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Need for Speed: Hot Pursuit 2",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Odin Sphere",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Okami",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Onimusha 2: Samurai's Destiny",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Onimusha 3: Demon Siege",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Onimusha: Dawn of Dreams",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Onimusha: Warlords",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Persona 3 FES",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Persona 4",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Peter Jackson's King Kong",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Phantom Brave",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Prince of Persia: The Sands of Time",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Prince of Persia: The Two Thrones",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Prince of Persia: Warrior Within",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Project: Snowblind",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Psi-Ops: The Mindgate Conspiracy",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Psychonauts",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "R-Type Final",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Radiata Stories",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Ratchet & Clank",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Ratchet & Clank: Going Commando",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Ratchet & Clank: Up Your Arsenal",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Ratchet: Deadlocked",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Rayman 3: Hoodlum Havoc",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Red Faction",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Red Faction II",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Resident Evil 4",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Resident Evil Code: Veronica X",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Ridge Racer V",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Ring of Red",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Robot Alchemic Drive",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Rogue Galaxy",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Rygar: The Legendary Adventure",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "SOCOM 3: U.S. Navy SEALs",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "SOCOM II: U.S. Navy SEALs",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "SOCOM: U.S. Navy SEALs",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Sakura Wars: So Long",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": " My Love",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Shadow Hearts",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Shadow Hearts: Covenant",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Shadow Hearts: From the New World",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Shadow Tower: Abyss (English Patched)",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Shadow of Destiny",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Shadow of the Colossus",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Shin Megami Tensei: Nocturne",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Silent Hill 2",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Silent Hill 3",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Silent Hill 4: The Room",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Siren",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "SkyGunner",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Sly 2: Band of Thieves",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Sly 3: Honor Among Thieves",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Sly Cooper and the Thievius Raccoonus",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Soul Reaver 2",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "SoulCalibur III",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Space Channel 5: Special Edition",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Space Channel 5: Special Edition 2",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Spider-Man 2",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Star Ocean: Till the End of Time",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Star Wars: Battlefront II",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Star Wars: Jedi Starfighter",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Star Wars: Starfighter",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Suikoden III",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Suikoden V",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Tales of the Abyss",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Tekken 5",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Tekken Tag Tournament",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Tenchu: Wrath of Heaven",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "The Incredible Hulk: Ultimate Destruction",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "The King of Fighters XI",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "The Lord of the Rings: The Return of the King",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "The Lord of the Rings: The Two Towers",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "The Mark of Kri",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "The Suffering",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "The Thing",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "The Warriors",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "TimeSplitters",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "TimeSplitters 2",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "TimeSplitters: Future Perfect",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Tomb Raider: Anniversary",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Tomb Raider: Legend",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Tony Hawk's Pro Skater 4",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Twisted Metal: Black",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Valkyrie Profile 2: Silmeria",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Viewtiful Joe",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Viewtiful Joe 2",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Virtua Fighter 4: Evolution",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "WWE SmackDown! Here Comes the Pain",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "We ♥ Katamari",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Wild Arms 3",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Wipeout Fusion",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "X-Men Legends",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "X-Men Legends II: Rise of Apocalypse",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Xenosaga Episode I: Der Wille zur Macht",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Xenosaga Episode II: Jenseits von Gut und Bose",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Xenosaga Episode III: Also sprach Zarathustra",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Yakuza",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Yakuza 2",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Zone of the Enders",
+      "fps": "60",
+      "widescreen": "unknown"
+    },
+    {
+      "name": "Zone of the Enders: The 2nd Runner"
+    }
+    ]
+  }
