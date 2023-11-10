@@ -1,0 +1,899 @@
+[
+    {
+        "Assessment": "Test Evaluare Aluat Dospit",
+        "text": "Coacerea preparatului are ca scop transformarea aluatului preparat comestibil, asigurandu-i: 1 / 1",
+        "options": [
+            "Culoare aurie, miezul elastic, gustul placut si aroma caracteristica",
+            "Culoare aurie, miez dens, gust placut si aroma caracteristica",
+            "Culoare aurie, textura umeda, gust dulce"
+        ],
+        "correct": "Culoare aurie, miezul elastic, gustul placut si aroma caracteristica"
+    },
+    {
+        "Assessment": "Test Evaluare Aluat Dospit",
+        "text": "Tipuri de drojdii folosite in panificatie: 1 / 1",
+        "options": [
+            "Drojdia proaspata",
+            "Drojdie de bere"
+        ],
+        "correct": "Drojdia proaspata"
+    },
+    {
+        "Assessment": "Test Evaluare Aluat Dospit",
+        "text": "Aluatul dospit prea moale sau prea tare se poate remedia astfel: 1 / 1",
+        "options": [
+            "Nu se poate remedia",
+            "Se combina cu un aluat care are consistenta mai tare sau se adauga lichid",
+            "Se acopera cu un strat subtire de zahar farin"
+        ],
+        "correct": "Se combina cu un aluat care are consistenta mai tare sau se adauga lichid"
+    },
+    {
+        "Assessment": "Test Evaluare Aluat Dospit",
+        "text": "Suprafata aluatului copt poate sa prezinte crapaturi din cauza: 1 / 1",
+        "options": [
+            "Drojdie insuficienta sau de calitate necorespunzatoare",
+            "Temperaturi diferite din coaja 180 °C si miez 95 °C",
+            "Dospirea finala (III) insuficienta"
+        ],
+        "correct": "Drojdie insuficienta sau de calitate necorespunzatoare"
+    },
+    {
+        "Assessment": "Test Evaluare Aluat Dospit",
+        "text": "Aglomerari de faina sau de galbenus in compozitie se datoreaza: 1 / 1",
+        "options": [
+            "Sodoul a fost prea cald",
+            "Zaharul s-a combinat cu oul fara sa se amestece",
+            "S-a folosit lichid prea mult"
+        ],
+        "correct": "Sodoul a fost prea cald"
+    },
+    {
+        "Assessment": "Test Evaluare Aluat Dospit",
+        "text": "Conditii pentru asigurarea calitatii aluatului dospit: 1 / 1",
+        "options": [
+            "Materiile prime sa fie de calitate corespunzatoare",
+            "Sa se respecte raportul faina-drojdie",
+            "Dupa coacere preparatele sa se lase la temperat asezate pe gratare"
+        ],
+        "correct": "Materiile prime sa fie de calitate corespunzatoare"
+    },
+    {
+        "Assessment": "Test Evaluare Aluat Dospit",
+        "text": "Fermentarea finala se refera la: 1 / 1",
+        "options": [
+            "Preparatul modelat, care a pierdut o cantitate de aer prin modelare si si-a modificat volumul",
+            "Transformarea aluatului preparat comestibil",
+            "Amestecarea perfecta a materiilor prime in vederea umezirii fainii si repartizarea lor"
+        ],
+        "correct": "Preparatul modelat, care a pierdut o cantitate de aer prin modelare si si-a modificat volumul"
+    },
+    {
+        "Assessment": "Test Evaluare Aluat Dospit",
+        "text": "Fermentarea aluatului se face la temperatura de : 1 /",
+        "options": [
+            "27- 32 °C",
+            "15 °C",
+            "35- 40 °C"
+        ],
+        "correct": "27- 32 °C"
+    },
+    {
+        "Assessment": "Test Evaluare Aluat Dospit",
+        "text": "Prepararea sodoului reprezinta : 1 / 1",
+        "options": [
+            "Amestecul dintre faina, drojdie si lapte",
+            "Amestecul dintre oua, galbenus, lapte, zahar si arome"
+        ],
+        "correct": "Amestecul dintre faina, drojdie si lapte"
+    },
+    {
+        "Assessment": "Test Evaluare Aluat Dospit",
+        "text": "Aluatul dospit este aluatul in componenta caruia, pe langa faina, lichide si alte ingrediente, se adauga si: 1 / 1",
+        "options": [
+            "Praf de copt",
+            "Amidon",
+            "Drojdie"
+        ],
+        "correct": "Drojdie"
+    },
+    {
+        "Assessment": "Test Evaluare Aluatul",
+        "text": "Daca dupa coacere aluatul prezinta la suprafata puncte albe inseamna ca :  1 / 1",
+        "options": [
+            "Untul nu a fost incorporat corespunzator",
+            "S-a folosit zahar tos in procesul tehnologic si nu a fost complet dizolvat",
+            "Aluatul nu s-a copt sufiecient"
+        ],
+        "correct": "S-a folosit zahar tos in procesul tehnologic si nu a fost complet dizolvat"
+    },
+    {
+        "Assessment": "Test Evaluare Aluatul",
+        "text": "In realizarea aluaturilor fragede, fainurile cu un continut ridicat de proteina sunt de evitat pentru ca:  1 / 1",
+        "options": [
+            "Duc la obtinerea de aluaturi dure",
+            "Reduc la minim formarea retelei de gluten",
+            "Aluatul nu se coace uniform"
+        ],
+        "correct": "Duc la obtinerea de aluaturi dure"
+    },
+    {
+        "Assessment": "Test Evaluare Aluatul",
+        "text": "Uneori putem adauga fainuri din nucifere in:  1 / 1",
+        "options": [
+            "Pate brisee",
+            "Pate sucre",
+            "Sable Breton"
+        ],
+        "correct": "Pate sucre"
+    },
+    {
+        "Assessment": "Test Evaluare Aluatul",
+        "text": "Tehnica de obtinere Pate Sable (sablare) se realizeaza prin: 1 / 1",
+        "options": [
+            "Amestecarea untului rece cu zaharul si ingredientele uscate",
+            "Topirea untului si amestecarea acestuia cu restul de ingrediente",
+            "Spumarea untului cu zahar"
+        ],
+        "correct": "Amestecarea untului rece cu zaharul si ingredientele uscate"
+    },
+    {
+        "Assessment": "Test Evaluare Aluatul",
+        "text": "In procesul tehnologic pentru Pate Sucre untul trebuie sa fie: 1 / 1",
+        "options": [
+            "Rece",
+            "La temperatura camerei, cremos",
+            "Topit"
+        ],
+        "correct": "La temperatura camerei, cremos"
+    },
+    {
+        "Assessment": "Test Evaluare Aluatul",
+        "text": "PATE BRISEE este un aluat fraged obtinut din: 1 / 1",
+        "options": [
+            "Faina, unt, sare si apa",
+            "Ou, faina, unt, zahar si sare",
+            "Galbenus, unt, zahar, faina si agent de crestere"
+        ],
+        "correct": "Faina, unt, sare si apa"
+    },
+    {
+        "Assessment": "Test Evaluare Aluatul",
+        "text": "Tipul de grasime utilizat in aluatul fraged are un impact major asupra: 1 / 1",
+        "options": [
+            "Forma aluatului",
+            "Texturii crustei finite",
+            "Gustului"
+        ],
+        "correct": "Texturii crustei finite"
+    },
+    {
+        "Assessment": "Test Evaluare Aluatul",
+        "text": "Tipul de faina folosit pentru aluatul fraged este :  1 / 1",
+        "options": [
+            "650 - o faina puternic proteica",
+            "550 - o faina slab proteica, pentru a nu se dezvolta legatura de gluten",
+            "480 - faina cu nivel proteic mediu, pentru a ajuta la structura aluatului"
+        ],
+        "correct": "550 - o faina slab proteica, pentru a nu se dezvolta legatura de gluten"
+    },
+    {
+        "Assessment": "Test Evaluare Aluatul",
+        "text": "Tehnologia de preparare a aluatului fraged este influentata de : 1 / 1",
+        "options": [
+            "Consistenta grasimii",
+            "Tipul de faina folosit",
+            "De cantitatea de zahar"
+        ],
+        "correct": "Consistenta grasimii"
+    },
+    {
+        "Assessment": "Test Evaluare Aluatul",
+        "text": "Aluatul fraged reprezinta: 1 / 1",
+        "options": [
+            "Un amestec compact, dens, de ingrediente, care dupa coacere devine fraged, sfaramicios si crocant",
+            "Un amestec dintre ou, zahar si faina",
+            "Un aluat care creste in timpul coacerii"
+        ],
+        "correct": "Un amestec compact, dens, de ingrediente, care dupa coacere devine fraged, sfaramicios si crocant"
+    },
+    {
+        "Assessment": "Test Evaluare Aluatul Oparit",
+        "text": "Cojile insuficient crescute se datoreaza faptului ca: 1 / 1",
+        "options": [
+            "Coacerea s-a realizat la temperatura de sub 180 °C",
+            "S-a deschis usa cuptorului în primele 10 min",
+            "Uscarea insuficienta"
+        ],
+        "correct": "S-a deschis usa cuptorului în primele 10 min"
+    },
+    {
+        "Assessment": "Test Evaluare Aluatul Oparit",
+        "text": "Aluatul oparit poate fi copt cu urmatoarele metode:  1 / 1",
+        "options": [
+            "Imediat dupa pregatirea aluatului–160-170°C/ 30- 35 minute, fara ventilatie",
+            "Dupa refrigerarea aluatului timp de 6-12 ore - 170°C/ 30-35 minute, fara ventilatie",
+            "Dupa congelarea aluatului, 120 °C timp de 30-35 de minute, cu ventilatie"
+        ],
+        "correct": "Imediat dupa pregatirea aluatului–160-170°C/ 30- 35 minute, fara ventilatie"
+    },
+    {
+        "Assessment": "Test Evaluare Aluatul Oparit",
+        "text": "Cand consistenta aluatului este prea moale:  1 / 1",
+        "options": [
+            "Se recomanda combinarea cu un aluat mai consistent, in care nu s-au adaugat oua",
+            "Se adauga mai multa faina",
+            "Nu se remediaza"
+        ],
+        "correct": "Se recomanda combinarea cu un aluat mai consistent, in care nu s-au adaugat oua"
+    },
+    {
+        "Assessment": "Test Evaluare Aluatul Oparit",
+        "text": "Aluatul prezinta aglomerari de faina daca: 1 / 1",
+        "options": [
+            "Faina s-a adaugat toata o data (bloc)",
+            "Nu s-a amestecat imediat, rapid si energic;",
+            "Faina s-a adaugat treptat"
+        ],
+        "correct": "Nu s-a amestecat imediat, rapid si energic;"
+    },
+    {
+        "Assessment": "Test Evaluare Aluatul Oparit",
+        "text": "Temperatura aluatului in momentul adaugarii oului este 1 / 1",
+        "options": [
+            "Maxim 70 °C",
+            "Peste 70 °C",
+            "120 °C"
+        ],
+        "correct": "Maxim 70 °C"
+    },
+    {
+        "Assessment": "Test Evaluare Aluatul Oparit",
+        "text": "Oul intreg are rol de: 1 / 1",
+        "options": [
+            "Ajuta coaja sa isi sustina forma in timpul coacerii",
+            "Are rol de emulsionare, adauga umiditate aluatului si ajuta aluatul sa creasca in timpul coacerii",
+            "Favorizeaza o coacere uniforma, fara crapaturi"
+        ],
+        "correct": "Are rol de emulsionare, adauga umiditate aluatului si ajuta aluatul sa creasca in timpul coacerii"
+    },
+    {
+        "Assessment": "Test Evaluare Aluatul Oparit",
+        "text": "Folosirea laptelui in compozitia de aluat oparit ajuta la :  1 / 1",
+        "options": [
+            "Sustinerea structurii cojii",
+            "Gust",
+            "Obtinerea texturii crocante a cojii"
+        ],
+        "correct": "Sustinerea structurii cojii"
+    },
+    {
+        "Assessment": "Test Evaluare Aluatul Oparit",
+        "text": "Pentru a obtine un produs conform este necesar :  1 / 1",
+        "options": [
+            "Tipul de faina sa fie slab proteic",
+            "Folosirea fainurilor cu gluten puternic elastic si a oualelor proaspete",
+            "Folosirea exclusiva a galbenusului"
+        ],
+        "correct": "Folosirea fainurilor cu gluten puternic elastic si a oualelor proaspete"
+    },
+    {
+        "Assessment": "Test Evaluare Aluatul Oparit",
+        "text": "Prin coacerea aluatului oparit se obtine : 1 / 1",
+        "options": [
+            "Preparate crescute mult in volum cu porozitate mare, usor crocant in exterior si fagure (gol) in interior",
+            "Preparate cu textura compacta",
+            "Preparate cu textura nisipoasa"
+        ],
+        "correct": "Preparate crescute mult in volum cu porozitate mare, usor crocant in exterior si fagure (gol) in interior"
+    },
+    {
+        "Assessment": "Test Evaluare Aluatul Oparit",
+        "text": "Aluatul oparit este un aluat nedospit si se obtine prin :  1 / 1",
+        "options": [
+            "Adaugarea in compozitie agenti de crestere",
+            "Procesul de oparire a fainii intr-un amestec de lichide, grasimi si sare in care se incorporeaza la final ou",
+            "Mixarea fainii cu restul de ingrediente"
+        ],
+        "correct": "Procesul de oparire a fainii intr-un amestec de lichide, grasimi si sare in care se incorporeaza la final ou"
+    },
+    {
+        "Assessment": "Test Evaluare Bezeaua",
+        "text": "Temperatura la care se coace bezeaua de decor este :  1 / 1",
+        "options": [
+            "50-90 °C",
+            "150 °C",
+            "200 °C"
+        ],
+        "correct": "50-90 °C"
+    },
+    {
+        "Assessment": "Test Evaluare Bezeaua",
+        "text": "Bezeaua este un component de baza pentru :  1 / 1",
+        "options": [
+            "Cookies si brownie",
+            "Teacake si aluat dospit",
+            "Macarons si blaturi spumate (daquoise)"
+        ],
+        "correct": "Macarons si blaturi spumate (daquoise)"
+    },
+    {
+        "Assessment": "Test Evaluare Bezeaua",
+        "text": "In bezeaua franceza zaharul se adauga: 1 / 1",
+        "options": [
+            "Treptat",
+            "Tot o data la inceput",
+            "La sfarsit cand bezeaua e aproape gata"
+        ],
+        "correct": "Treptat"
+    },
+    {
+        "Assessment": "Test Evaluare Bezeaua",
+        "text": "Bezeaua elvetiana este bezeaua care: 1 / 1",
+        "options": [
+            "Se spumeaza albusul cu zaharul tos",
+            "Inainte de spumare, se gateste pe foc la 50 °C",
+            "Se face bezeaua de baza si dupa se gateste pe foc"
+        ],
+        "correct": "Inainte de spumare, se gateste pe foc la 50 °C"
+    },
+    {
+        "Assessment": "Test Evaluare Bezeaua",
+        "text": "Bezeaua italiană se face din :  1 / 1",
+        "options": [
+            "Albus spumat cu zahar",
+            "Albus spumat in care se adauga zahar pudra",
+            "Albus spumat in care se adauga sirop de zahar cu apa"
+        ],
+        "correct": "Albus spumat in care se adauga sirop de zahar cu apa"
+    },
+    {
+        "Assessment": "Test Evaluare Bezeaua",
+        "text": "Tipurile de bezea sunt :  1 / 1",
+        "options": [
+            "Elvetiana, italiana si ruseasca",
+            "Italiana, franceza, elvetiana",
+            "Romaneasca, elvetiana si franceza"
+        ],
+        "correct": "Italiana, franceza, elvetiana"
+    },
+    {
+        "Assessment": "Test Evaluare Bezeaua",
+        "text": "Actiunea de spumare ajuta la :  1 / 1",
+        "options": [
+            "Amestecarea zaharului cu albusul de ou",
+            "Reconfigurarea retelei proetice a albusului de ou - proteinele se relaxeaza impreuna cu moleculele de apa, permitand astfel celulelor de aer sa ramana prinse in reteaua proteica",
+            "Topirea zaharului"
+        ],
+        "correct": "Reconfigurarea retelei proetice a albusului de ou - proteinele se relaxeaza impreuna cu moleculele de apa, permitand astfel celulelor de aer sa ramana prinse in reteaua proteica"
+    },
+    {
+        "Assessment": "Test Evaluare Bezeaua",
+        "text": "In cazul bezelei tratata termic (la cuptor) avem nevoie de 1 / 1",
+        "options": [
+            "Cantitate dubla de zahar fata de albus",
+            "Aceeasi cantitate de zahar precum cantitatea de albus",
+            "Jumatate de cantitate de zahar fata de albus"
+        ],
+        "correct": "Cantitate dubla de zahar fata de albus"
+    },
+    {
+        "Assessment": "Test Evaluare Bezeaua",
+        "text": "Important pentru o bezea stabila este :  1 / 1",
+        "options": [
+            "Cantitatea de albus",
+            "Timpul de mixare",
+            "Cantitatea de zahar"
+        ],
+        "correct": "Cantitatea de zahar"
+    },
+    {
+        "Assessment": "Test Evaluare Bezeaua",
+        "text": "Bezeaua este:  1 / 1",
+        "options": [
+            "Un produs pe bază de lapte",
+            "Un produs pe baza de albus",
+            "Un produs pe baza de frisca"
+        ],
+        "correct": "Un produs pe baza de albus"
+    },
+    {
+        "Assessment": "Test Evaluare Blaturi",
+        "text": "Procesul prin care se obtine Brownie este :  1 / 1",
+        "options": [
+            "Prin spumarea oualelor si mixarea cu restul de ingrediente",
+            "Prin amestecarea ingredientelor fara spumare",
+            "Prin incalzirea tuturor ingredientelor"
+        ],
+        "correct": "Prin amestecarea ingredientelor fara spumare"
+    },
+    {
+        "Assessment": "Test Evaluare Blaturi",
+        "text": "Madlenele se coc la : 1 / 1",
+        "options": [
+            "15 minute la 150 °C",
+            "10 minute la 130 °C",
+            "4 minute la 220 °C si 6 minute la 180 °C"
+        ],
+        "correct": "4 minute la 220 °C si 6 minute la 180 °C"
+    },
+    {
+        "Assessment": "Test Evaluare Blaturi",
+        "text": "Textura corecta a unui Brownie este :  1 / 1",
+        "options": [
+            "Uscata si crocanta",
+            "Umeda si cremoasa",
+            "Aerata"
+        ],
+        "correct": "Umeda si cremoasa"
+    },
+    {
+        "Assessment": "Test Evaluare Blaturi",
+        "text": "In compozitia de muffins se adauga doi agenti de crestere 1 / 1",
+        "options": [
+            "Drojdie si praf de copt",
+            "Praf de copt si bicarbonat de sodiu",
+            "Ammoniac si drojdie"
+        ],
+        "correct": "Praf de copt si bicarbonat de sodiu"
+    },
+    {
+        "Assessment": "Test Evaluare Blaturi",
+        "text": "Pentru a da o textura mai umeda tea cake-ului: 1 / 1",
+        "options": [
+            "Se adauga apa",
+            "Se adauga pudra de migdale sau smantana pentru frisca",
+            "Se adauga cacao"
+        ],
+        "correct": "Se adauga pudra de migdale sau smantana pentru frisca"
+    },
+    {
+        "Assessment": "Test Evaluare Blaturi",
+        "text": "Termenul de Beurre Noisette reprezinta: 1 / 1",
+        "options": [
+            "Untul amestecat cu pasta de alune",
+            "Untul caramelizat",
+            "Untul topit"
+        ],
+        "correct": "Untul caramelizat"
+    },
+    {
+        "Assessment": "Test Evaluare Blaturi",
+        "text": "Forma specifică Madlenelor este :  1 / 1",
+        "options": [
+            "De scoica",
+            "Dreptunghiulara",
+            "Rotunda"
+        ],
+        "correct": "De scoica"
+    },
+    {
+        "Assessment": "Test Evaluare Blaturi",
+        "text": "Travel cakes pot fi pastrate: 1 / 1",
+        "options": [
+            "La temperatura camerei sau la frigider 5-7 zile",
+            "La temperatura camerei 30 de zile",
+            "La frigider, 30 de zile"
+        ],
+        "correct": "La temperatura camerei sau la frigider 5-7 zile"
+    },
+    {
+        "Assessment": "Test Evaluare Blaturi",
+        "text": "Verificarea produsului daca este copt se face astfel :  1 / 1",
+        "options": [
+            "Scoaterea acestuia din cuptor si sectionarea lui",
+            "Testul scobitorii",
+            "Presarea cu degetele si revenirea acestuia la forma initiala"
+        ],
+        "correct": "Testul scobitorii"
+    },
+    {
+        "Assessment": "Test Evaluare Blaturi",
+        "text": "Travel Cakes pot fi realizate din:  1 / 1",
+        "options": [
+            "Bezea",
+            "Blaturi compacte",
+            "Blaturi, creme și glazuri"
+        ],
+        "correct": "Blaturi compacte"
+    },
+    {
+        "Assessment": "Test Evaluare Chocolate",
+        "text": "Surogatul sau compoundul este :  1 / 1",
+        "options": [
+            "Un tip de ciocolata",
+            "Un inlocuitor de ciocolata",
+            "Un tip de cacao"
+        ],
+        "correct": "Un inlocuitor de ciocolata"
+    },
+    {
+        "Assessment": "Test Evaluare Chocolate",
+        "text": "Ciocolata cuvertura contine un minim de 31% unt de cacao si poate fi clasificata astfel :  1 / 1",
+        "options": [
+            "Densa 30%-31%, medie 30%-35%, fluida 36%- 38%",
+            "Densa 32%-34%, medie 36%-37%, fluida 38%- 40% ",
+            "Densa 35%-38%, medie 36%-37%, fluida 38%- 40%"
+        ],
+        "correct": "Densa 32%-34%, medie 36%-37%, fluida 38%- 40% "
+    },
+    {
+        "Assessment": "Test Evaluare Chocolate",
+        "text": "Temperarea ciocolatei albe se realizeaza prin:  1 / 1",
+        "options": [
+            "Topire 45-50 °C, racire 28-29 °C, incalzire la 31-32 °C (temperatura de lucru)",
+            "Topire 40-45 °C, racire 27 °C, incalzire la 29-30°C (temperatura de lucru)",
+            "Topire 40-45 °C, racire 28-29 °C, incalzire la 35°C (temperatura de lucru)"
+        ],
+        "correct": "Topire 40-45 °C, racire 27 °C, incalzire la 29-30°C (temperatura de lucru)"
+    },
+    {
+        "Assessment": "Test Evaluare Chocolate",
+        "text": "Temperarea ciocolatei negre se realizeaza prin:  1 / 1",
+        "options": [
+            "Topire 45-50 °C, racire 28-29 °C, incalzire la 31-32 °C (temperatura de lucru)",
+            "Topire 40-45 °C, racire 27 °C, incalzire la 29-30°C (temperatura de lucru)",
+            "Topire 40-45 °C, racire 28-29 °C, incalzire la 35°C (temperatura de lucru)"
+        ],
+        "correct": "Topire 45-50 °C, racire 28-29 °C, incalzire la 31-32 °C (temperatura de lucru)"
+    },
+    {
+        "Assessment": "Test Evaluare Chocolate",
+        "text": "Ciocolata gianduja este ciocolata care are in continut:  1 / 1",
+        "options": [
+            "Alune de padure, zahar si ciocolata sau masa de cacao",
+            "Martipan si unt de cacao",
+            "Lapte de migdale"
+        ],
+        "correct": "Alune de padure, zahar si ciocolata sau masa de cacao"
+    },
+    {
+        "Assessment": "Test Evaluare Chocolate",
+        "text": "Ciocolata se pastreaza la temperatura de: 1 / 1",
+        "options": [
+            "15 °C",
+            "25 °C",
+            "4 °C"
+        ],
+        "correct": "15 °C"
+    },
+    {
+        "Assessment": "Test Evaluare Chocolate",
+        "text": "În urma temperarii corecte, ciocolata prezinta urmatoarele calitati: 1 / 1",
+        "options": [
+            "Se matuieste si se albeste",
+            "Devine mata si casanta",
+            "Capata o textura crocanta, lucioasa si se topeste in timpul degustarii"
+        ],
+        "correct": "Capata o textura crocanta, lucioasa si se topeste in timpul degustarii"
+    },
+    {
+        "Assessment": "Test Evaluare Chocolate",
+        "text": "Prin consare se obtine: 1 / 1",
+        "options": [
+            "Ciocolata cu arome bine definite - untul de cacao devine mai fluid, aciditatea si astringenta fiind eliminate",
+            "Ciocolatei amara, fara gust definit si foarte aspra",
+            "Ciocolatei gianduja."
+        ],
+        "correct": "Ciocolata cu arome bine definite - untul de cacao devine mai fluid, aciditatea si astringenta fiind eliminate"
+    },
+    {
+        "Assessment": "Test Evaluare Chocolate",
+        "text": "Ciocolata cu lapte se obtine prin adaos de : 1 / 1",
+        "options": [
+            "Zahar, lapte praf si lecitina",
+            "Zahar, lecitina si vanilie ",
+            "Unt de cacao, lapte praf si vanilie."
+        ],
+        "correct": "Zahar, lapte praf si lecitina"
+    },
+    {
+        "Assessment": "Test Evaluare Chocolate",
+        "text": "Prin presarea pastei de cacao se obtin doua mari componente :  1 / 1",
+        "options": [
+            "Ciocolata si unt de cacao",
+            "Unt de cacao si pudra de cacao",
+            "Masa de cacao si ciocolata "
+        ],
+        "correct": "Unt de cacao si pudra de cacao"
+    },
+    {
+        "Assessment": "Test Evaluare Clasificarea",
+        "text": "Din categoria semipraparatelor pe bază de zahăr fac parte:  1 / 1",
+        "options": [
+            "Ganache-ul",
+            "Siropurile",
+            "Foile"
+        ],
+        "correct": "Siropurile"
+    },
+    {
+        "Assessment": "Test Evaluare Clasificarea",
+        "text": "Bezeaua elvețiană se obține astfel : 1 / 1",
+        "options": [
+            "Se spumează albușul cu zahărul la rece",
+            "Se face un sirop de zahăr si apă și se adaugă peste albuș",
+            "Se gătește albușul cu zahărul pe bain marie până la 50 °C și se spumează până se obține o bezea fermă și lucioasă"
+        ],
+        "correct": "Se gătește albușul cu zahărul pe bain marie până la 50 °C și se spumează până se obține o bezea fermă și lucioasă"
+    },
+    {
+        "Assessment": "Test Evaluare Clasificarea",
+        "text": "Aluaturile dospite sunt: 1 / 1",
+        "options": [
+            "Brioche, cozonac, baba și savarină",
+            "Foaia de plăcintă",
+            "Blat cu cacao"
+        ],
+        "correct": "Brioche, cozonac, baba și savarină"
+    },
+    {
+        "Assessment": "Test Evaluare Clasificarea",
+        "text": "Blaturile spumate sunt realizate prin: 1 / 1",
+        "options": [
+            "Spumarea oului (aerare fizica sau mecanică)",
+            "Amestecarea compoziției",
+            "Prin adăugarea drojdiei"
+        ],
+        "correct": "Spumarea oului (aerare fizica sau mecanică)"
+    },
+    {
+        "Assessment": "Test Evaluare Clasificarea",
+        "text": "Din categoria blaturilor dense fac parte: 1 / 1",
+        "options": [
+            "Macarons și daquoise",
+            "Brownie și financier",
+            "Genoise și pișcoturi de șampanie"
+        ],
+        "correct": "Brownie și financier"
+    },
+    {
+        "Assessment": "Test Evaluare Clasificarea",
+        "text": "Din fructele oleaginoase se pot obține: 1 / 1",
+        "options": [
+            "Coulis, compote",
+            "Marțipan și jeleuri",
+            "Martipan, pralină, paste"
+        ],
+        "correct": "Martipan, pralină, paste"
+    },
+    {
+        "Assessment": "Test Evaluare Clasificarea",
+        "text": "Crema mousseline se obține din: 1 / 1",
+        "options": [
+            "Crema de patiserie și frișcă",
+            "Crema de patiserie și bezea",
+            "Crema de patiserie și unt spumat"
+        ],
+        "correct": "Crema de patiserie și unt spumat"
+    },
+    {
+        "Assessment": "Test Evaluare Clasificarea",
+        "text": "Ganache urile de cofetărie se obțin din: 1 / 1",
+        "options": [
+            "Ciocolată și frișcă sau piureuri de fructe",
+            "Ciocolată și apă",
+            "Ciocolată și unt"
+        ],
+        "correct": "Ciocolată și frișcă sau piureuri de fructe"
+    },
+    {
+        "Assessment": "Test Evaluare Clasificarea",
+        "text": "Aerarea chimică a blaturilor se realizează prin: 1 / 1",
+        "options": [
+            "Adăugarea de praf de copt, bicarbonat de sodiu sau amoniac",
+            "Adaugarea de drojdie instant",
+            "Spumarea ouălelor"
+        ],
+        "correct": "Adăugarea de praf de copt, bicarbonat de sodiu sau amoniac"
+    },
+    {
+        "Assessment": "Test Evaluare Clasificarea",
+        "text": "Prin combinarea cremei de patiserie cu friscă obținem: 1 / 1",
+        "options": [
+            "Chantilly",
+            "Diplomat",
+            "Chiboust"
+        ],
+        "correct": "Chiboust"
+    },
+    {
+        "Assessment": "Test Evaluare Mousse",
+        "text": "Crema de mousse este : 1 / 1",
+        "options": [
+            "O crema aerata, care dupa decongelarea, isi pastreaza forma",
+            "O crema de patiserie",
+            "Un ganache"
+        ],
+        "correct": "O crema aerata, care dupa decongelarea, isi pastreaza forma"
+    },
+    {
+        "Assessment": "Test Evaluare Mousse",
+        "text": "Crema de mousse este formata din doua parti: 1 / 1",
+        "options": [
+            "Baza si partea aerata",
+            "Insertie si blat",
+            "Glazura si decor"
+        ],
+        "correct": "Baza si partea aerata"
+    },
+    {
+        "Assessment": "Test Evaluare Mousse",
+        "text": "Torturile pe baza de mousse pot fi numite si: 1 / 1",
+        "options": [
+            "Naked cakes",
+            "Entremet",
+            "Event cakes"
+        ],
+        "correct": "Entremet"
+    },
+    {
+        "Assessment": "Test Evaluare Mousse",
+        "text": "Torturile pe baza de mousse au in compozitie: 1 / 1",
+        "options": [
+            "Crema de unt si blaturi insiropate",
+            "Bezea si fructe",
+            "Blat, insertie sau mai multe insertii, crema de mousse, glazura si elementele de decor"
+        ],
+        "correct": "Blat, insertie sau mai multe insertii, crema de mousse, glazura si elementele de decor"
+    },
+    {
+        "Assessment": "Test Evaluare Mousse",
+        "text": "Ingredientele cheie folosite in acest tip de deserturi sunt: 1 / 1",
+        "options": [
+            "Agentii de crestere",
+            "Agentii de gelifiere",
+            "Agentii de stabilizare"
+        ],
+        "correct": "Agentii de gelifiere"
+    },
+    {
+        "Assessment": "Test Evaluare Mousse",
+        "text": "Gelatina este un agent de gelifiere: 1 / 1",
+        "options": [
+            "Termoreversibil, obtinut din oase si cartilaje de vaca, porc sau peste",
+            "Termoreversibil sau ireversibil, obtinut din citrice si mere",
+            "Termoreversibil, cu provenienta din alge marine"
+        ],
+        "correct": "Termoreversibil, obtinut din oase si cartilaje de vaca, porc sau peste"
+    },
+    {
+        "Assessment": "Test Evaluare Mousse",
+        "text": "Puterea de gelifiere a gelatinei este masurată în :  1 / 1",
+        "options": [
+            "Grame",
+            "Bloom",
+            "Litri"
+        ],
+        "correct": "Bloom"
+    },
+    {
+        "Assessment": "Test Evaluare Mousse",
+        "text": "Gelatina granule sau pudra se hidrateaza astfel :  1 / 1",
+        "options": [
+            "Raport 1-5 sau 1-6 gelatina si apa rece",
+            "Se dizolva in apa si se aduce la temperatura de 70°C pentru a activa gelatina",
+            "Se dizolva in apa si se fierbe pentru a activa gelatina"
+        ],
+        "correct": "Raport 1-5 sau 1-6 gelatina si apa rece"
+    },
+    {
+        "Assessment": "Test Evaluare Mousse",
+        "text": "Pentru a realiza o glazura cu effect de catifea avem nevoie de :  1 / 1",
+        "options": [
+            "Unt de cacao",
+            "Unt de cacao si ciocolata (raport 1-1), colorant liposolubil",
+            "Glazura neutra"
+        ],
+        "correct": "Unt de cacao si ciocolata (raport 1-1), colorant liposolubil"
+    },
+    {
+        "Assessment": "Test Evaluare Mousse",
+        "text": "Torturi de mousse se glazureaza cand: 1 / 1",
+        "options": [
+            "Este foarte bine congelat",
+            "Dupa decongelare",
+            "Imediat dupa ce este turnat in forma"
+        ],
+        "correct": "Este foarte bine congelat"
+    },
+    {
+        "Assessment": "Test Evaluare Viennoiserie",
+        "text": "Coacerea produselor din aluat foitaj se realizeaza: 1 / 1",
+        "options": [
+            "180-200°C timp de 18-20 min",
+            "200-220 °C timp de 20 min cu abur",
+            "140 °C timp de 20 min"
+        ],
+        "correct": "200-220 °C timp de 20 min cu abur"
+    },
+    {
+        "Assessment": "Test Evaluare Viennoiserie",
+        "text": "Coacerea produselor de croissant se realizeaza: 1 / 1",
+        "options": [
+            "180-200°C timp de 18-20 min",
+            "200-220 °C timp de 20 min cu abur",
+            "140 °C timp de 20 min"
+        ],
+        "correct": "180-200°C timp de 18-20 min"
+    },
+    {
+        "Assessment": "Test Evaluare Viennoiserie",
+        "text": "Laminarea reprezinta: 1 / 1",
+        "options": [
+            "Intinderea aluatului",
+            "Impachetarea grasimii cu aluat in starturi alternative, cu repaus la rece intre laminari",
+            "Amestecarea untului cu faina"
+        ],
+        "correct": "Impachetarea grasimii cu aluat in starturi alternative, cu repaus la rece intre laminari"
+    },
+    {
+        "Assessment": "Test Evaluare Viennoiserie",
+        "text": "Dospirea aluatului de croissant se face : 1 / 1",
+        "options": [
+            "Cu umiditate 75% la temperatura de 26-28 °C",
+            "Fara umiditate, la 32 °C",
+            "La temperatura camerei"
+        ],
+        "correct": "Cu umiditate 75% la temperatura de 26-28 °C"
+    },
+    {
+        "Assessment": "Test Evaluare Viennoiserie",
+        "text": "Procesul de laminare este:  1 / 1",
+        "options": [
+            "La fel pentru toate tipurile de aluat",
+            "Numai la croissant este diferita",
+            "Specifica fiecarui tip de aluat avand o importanta colosala in rezultatele finale"
+        ],
+        "correct": "Specifica fiecarui tip de aluat avand o importanta colosala in rezultatele finale"
+    },
+    {
+        "Assessment": "Test Evaluare Viennoiserie",
+        "text": "Odihna la frigider a aluatului de croissant contribuie la: 1 / 1",
+        "options": [
+            "Formarea aromei datorita dezvoltarii acizilor organici si pregateste aluatul pentru pasul urmator",
+            "Cresterea aluatului"
+        ],
+        "correct": "Formarea aromei datorita dezvoltarii acizilor organici si pregateste aluatul pentru pasul urmator"
+    },
+    {
+        "Assessment": "Test Evaluare Viennoiserie",
+        "text": "Timpul de framantare prea mare va influenta astfel: 1 / 1",
+        "options": [
+            "Aluatul va fi prea moale",
+            "Aluatul va fi prea elastic si se vaDrojdia lucra greu ulterior la laminare",
+            "Aluatul va fi prea dens"
+        ],
+        "correct": "Aluatul va fi prea elastic si se va lucra greu ulterior la laminare"
+    },
+    {
+        "Assessment": "Test Evaluare Viennoiserie",
+        "text": "Folosirea untului tare va influenta procesul tehnologic astfel: 1 / 1",
+        "options": [
+            "Aluatul va fi greu de lucrat și nu vom avea foietare la final",
+            "Aluatul se va rupe bucati",
+            "Aluatul se va lucra foarte usor"
+        ],
+        "correct": "Aluatul se va rupe bucati "
+    },
+    {
+        "Assessment": "Test Evaluare Viennoiserie",
+        "text": "Continutul de proteina (gluten) din faina determina: 1 / 1",
+        "options": [
+            "Umiditatea fainii",
+            "Puterea, rezistenta si elasticitatea",
+            "Culoarea"
+        ],
+        "correct": "Puterea, rezistenta si elasticitatea"
+    },
+    {
+        "Assessment": "Test Evaluare Viennoiserie",
+        "text": "Cel mai important ingredient pentru textura si performata acestui aluat este :  1 / 1",
+        "options": [
+            "Faina",
+            "Apa",
+            "Drojdia"
+        ],
+        "correct": "Faina"
+    }
+]
