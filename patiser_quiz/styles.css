@@ -1,7 +1,7 @@
 body{
     background-color: rgba(255, 228, 196, 0.842);
 }
-#quiz{
+#main{
     width: 90%;
     margin-left: 5%;
 }
@@ -35,4 +35,8 @@ body{
 
 button{
     font-size: large;
+}
+
+.progress-stacked{
+    box-shadow: 0 0 4px #000000bf;
 }
