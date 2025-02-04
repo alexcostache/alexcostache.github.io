@@ -1,1 +1,227 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Web site created using create-react-app"/><link rel="apple-touch-icon" href="/logo192.png"/><link rel="manifest" href="/manifest.json"/><title>Alex Costache - personal site</title><script defer="defer" src="/static/js/main.0a021cf3.js"></script><link href="/static/css/main.e37edc87.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ASCDEV Terminal Profile</title>
+  <!-- Import Inconsolata from Google Fonts for a minimal, geeky terminal feel -->
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+  <style>
+    /* Global styles: center the modern terminal window on a dark background */
+    body {
+      margin: 0;
+      background: #2b2b2b;
+      font-family: 'Inconsolata', monospace;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    /* Modern terminal window container */
+    .terminal-window {
+      background-color: #1e1e1e;
+      border-radius: 8px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+      width: 80%;
+      max-width: 800px;
+      overflow: hidden;
+    }
+
+    /* Terminal header with faux window control buttons */
+    .terminal-header {
+      background: #3c3c3c;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+    }
+    .terminal-header .button {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      margin-right: 8px;
+    }
+    .btn-close { background: #ff5f56; }
+    .btn-minimize { background: #ffbd2e; }
+    .btn-maximize { background: #27c93f; }
+
+    /* Terminal content area with fixed dimensions and increased line-height */
+    .terminal-content {
+      padding: 20px;
+      color: #32CD32; /* A refined green */
+      font-size: 1rem;
+      line-height: 1.6; /* Increased line-height */
+      position: relative;
+      height: 450px;  /* Height to accommodate the banner, profile text, and input */
+      overflow: hidden;
+      white-space: pre-wrap;
+    }
+
+    /* Blinking cursor for the typewriter effect and loading animation */
+    .cursor {
+      display: inline-block;
+      background-color: #32CD32;
+      width: 8px;
+      margin-left: 2px;
+      animation: blink 1s step-start infinite;
+    }
+    @keyframes blink {
+      50% { background-color: transparent; }
+    }
+
+    /* Style for the input prompt */
+    .input-container {
+      display: flex;
+      align-items: center;
+      margin-top: 0.5rem;
+    }
+    .input-container span {
+      margin-right: 5px;
+    }
+    .input-container input {
+      background: none;
+      border: none;
+      outline: none;
+      color: #32CD32;
+      font-family: inherit;
+      font-size: inherit;
+      flex: 1;
+    }
+  </style>
+</head>
+<body>
+  <div class="terminal-window">
+    <div class="terminal-header">
+      <div class="button btn-close"></div>
+      <div class="button btn-minimize"></div>
+      <div class="button btn-maximize"></div>
+    </div>
+    <div class="terminal-content">
+      <!-- All text (loading, banner and profile) will be revealed in this container -->
+      <div id="terminal-text"></div>
+    </div>
+  </div>
+
+  <script>
+    // Define the ASCII banner lines for ASCDEV
+    const bannerLines = [
+      "         _    ____   ____ ____  _______     __",
+      "        / \\  / ___| / ___|  _ \\| ____\\ \\   / /",
+      "       / _ \\ \\___ \\| |   | | | |  _|  \\ \\ / / ",
+      "      / ___ \\ ___) | |___| |_| | |___  \\ V /  ",
+      "     /_/   \\_\\____/ \\____|____/|_____|  \\_/    "
+    ];
+
+    // Define the updated backend developer profile text lines
+    const profileLines = [
+      "Welcome to my page,",
+      "My name is Alex Costache and I am a software developer.",
+      "I build modern, scalable software solutions.",
+      "I have a passion for clean code and creative problem solving.",
+      "I am always learning and staying up-to-date with the latest technologies and trends.",
+      "Thank you for stopping by!",
+      "Send me a message:"
+    ];
+
+    // Animation settings
+    const typingSpeed = 40;   // Milliseconds between each character (for profile text)
+    const lineDelay   = 700;  // Delay (ms) between profile text lines
+    const bannerDelay = 500;  // Delay (ms) between banner lines
+
+    // We'll accumulate the displayed text in this variable
+    let displayText = "";
+    const terminalTextDiv = document.getElementById("terminal-text");
+
+    // Phase 0: Display a loading animation for 3 seconds
+    function showLoadingAnimation() {
+      let dots = 0;
+      terminalTextDiv.innerHTML = "Loading" + "<span class='cursor'>&nbsp;</span>";
+      const interval = setInterval(() => {
+        dots = (dots + 1) % 4; // Cycle through 0,1,2,3 dots
+        terminalTextDiv.innerHTML = "Loading" + ".".repeat(dots) + "<span class='cursor'>&nbsp;</span>";
+      }, 500);
+      setTimeout(() => {
+        clearInterval(interval);
+        terminalTextDiv.innerHTML = "";
+        // Start the banner animation after loading is complete
+        animateBanner(0);
+      }, 3000);
+    }
+
+    // Phase 1: Animate the banner (line by line, fully revealing each line)
+    function animateBanner(index) {
+      if (index < bannerLines.length) {
+        displayText += bannerLines[index] + "\n";
+        terminalTextDiv.innerHTML = displayText; // Update without a cursor
+        setTimeout(() => animateBanner(index + 1), bannerDelay);
+      } else {
+        // Add an extra blank line between the banner and profile text
+        displayText += "\n";
+        terminalTextDiv.innerHTML = displayText;
+        setTimeout(animateProfile, lineDelay);
+      }
+    }
+
+    // Phase 2: Animate the profile text (letter by letter, line by line)
+    let profileLineIndex = 0;
+    let charIndex = 0;
+    function animateProfile() {
+      if (profileLineIndex < profileLines.length) {
+        if (charIndex < profileLines[profileLineIndex].length) {
+          displayText += profileLines[profileLineIndex].charAt(charIndex);
+          terminalTextDiv.innerHTML = displayText + '<span class="cursor">&nbsp;</span>';
+          charIndex++;
+          setTimeout(animateProfile, typingSpeed);
+        } else {
+          // Finish the current profile line and move to the next
+          displayText += "\n";
+          terminalTextDiv.innerHTML = displayText + '<span class="cursor">&nbsp;</span>';
+          profileLineIndex++;
+          charIndex = 0;
+          setTimeout(animateProfile, lineDelay);
+        }
+      } else {
+        // Animation complete; enable input for sending a message
+        terminalTextDiv.innerHTML = displayText;
+        enableInput();
+      }
+    }
+
+    // Phase 3: Enable input so that the viewer can start typing a message.
+    function enableInput() {
+      const inputContainer = document.createElement("div");
+      inputContainer.className = "input-container";
+      
+      // Create prompt ">" element
+      const promptSpan = document.createElement("span");
+      promptSpan.textContent = "> ";
+      inputContainer.appendChild(promptSpan);
+      
+      // Create input field
+      const inputField = document.createElement("input");
+      inputField.type = "text";
+      inputField.placeholder = "start typing to send me a message...";
+      inputContainer.appendChild(inputField);
+      
+      // Append the input container to the terminal text div
+      terminalTextDiv.appendChild(inputContainer);
+      
+      // Focus the input field
+      inputField.focus();
+      
+      // Listen for Enter key press
+      inputField.addEventListener("keydown", function(e) {
+        if (e.key === "Enter") {
+          const message = inputField.value;
+          // Optionally, display a "sending" message or disable further input
+          inputField.disabled = true;
+          // Open the mail client with the message in the body
+          window.location.href = "mailto:alec.costache@gmail.com?body=" + encodeURIComponent(message);
+        }
+      });
+    }
+
+    // Start with the loading animation (Phase 0)
+    showLoadingAnimation();
+  </script>
+</body>
+</html>
