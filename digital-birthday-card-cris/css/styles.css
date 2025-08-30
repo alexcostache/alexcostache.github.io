@@ -1,0 +1,240 @@
+/* Base */
+:root{
+  --bg: #f7f3ee;
+  --paper: #fffdfa;
+  --ink: #2b2a28;
+  --accent: #b24b5c;
+  --shadow: 0 30px 60px rgba(0,0,0,.08), 0 6px 18px rgba(0,0,0,.06);
+}
+*{ box-sizing: border-box; }
+html, body { height: 100%; }
+body{
+  margin:0;
+  color:var(--ink);
+  background:
+    radial-gradient(1200px 600px at 10% -10%, #ffffff 0%, transparent 70%),
+    radial-gradient(1000px 500px at 110% 110%, #fff7f5 0%, transparent 65%),
+    linear-gradient(180deg, #faf7f3, var(--bg));
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Merriweather", serif;
+}
+
+/* Utilities */
+.hidden{ display:none !important; }
+.sr-only{
+  position:absolute !important; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); border:0;
+}
+
+/* Card container */
+#card{
+  max-width: 900px;
+  margin: 40px auto;
+  background: var(--paper);
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+  padding: 28px 26px;
+  opacity: 0;
+  transform: translateY(8px) scale(.99);
+  transition: opacity .5s ease, transform .5s ease;
+}
+#card.reveal{
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+#card h1{
+  margin: 4px 0 12px;
+  color: var(--accent);
+  font-weight: 800;
+  letter-spacing: .3px;
+}
+#card p{
+  line-height: 1.85;
+  font-size: 17px;
+  margin: 0 0 16px 0;
+  text-align: left;
+}
+
+/* Sentence animation visibility fix */
+#card .sentence{
+  display: inline;           /* visible by default */
+  opacity: 1;
+  transform: none;
+  filter: none;
+}
+
+/* Only blur/hide during reveal sequence */
+#card.reveal .sentence{
+  display: inline-block;
+  transform: translateY(14px);
+  opacity: 0;
+  filter: blur(3px);
+  transition: transform .55s ease, opacity .55s ease, filter .55s ease;
+}
+#card.reveal .sentence.in{
+  transform: translateY(0);
+  opacity: 1;
+  filter: none;
+}
+
+/* Modal */
+.modal{
+  position: fixed; inset: 0; display:grid; place-items:center; z-index: 1000;
+  transition: opacity .25s ease;
+  /* Hidden by default; becomes visible when .shown is present */
+  opacity: 0;
+  pointer-events: none;
+}
+.modal.shown{
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal__backdrop{
+  position:absolute; inset:0; background:rgba(0,0,0,.4); backdrop-filter: blur(4px);
+}
+.modal__dialog{
+  position: relative; z-index:1;
+  width:min(92vw, 480px);
+  background:#fff; border-radius:14px; box-shadow: 0 20px 50px rgba(0,0,0,.15);
+  padding:24px 20px 18px; text-align:center;
+  transform: translateY(6px) scale(.98); opacity:.98;
+  transition: transform .25s ease, opacity .25s ease;
+}
+.modal.shown .modal__dialog{ transform:translateY(0) scale(1); opacity:1; }
+.modal__lock{ font-size:34px; margin-bottom:6px; }
+.modal__title{ margin:0 0 2px; font-weight:700; font-size:22px; }
+.modal__subtitle{ margin:0 0 12px; color:#555; }
+.modal__hint{ margin:10px 0 0; color:#777; font-size:.9rem; }
+
+.modal__form{ display:grid; gap:10px; }
+.input-wrap{
+  display:flex; gap:6px; align-items:stretch;
+  background:#fafafa; border:1px solid #e5e5e5; border-radius:10px; padding:6px 8px;
+}
+.input-wrap:focus-within{ border-color: var(--accent); box-shadow: 0 0 0 3px rgba(178,75,92,.18); }
+#password-input{
+  flex:1; border:0; outline:0; background:transparent; padding:10px 8px; font-size:16px;
+}
+.btn{
+  border:0; cursor:pointer; border-radius:10px; padding:10px 14px; font-weight:600;
+}
+.btn--primary{
+  background: var(--accent); color:#fff; box-shadow: 0 8px 16px rgba(178,75,92,.28);
+}
+.btn--primary:hover{ filter:brightness(1.05); }
+.btn--ghost{ background:transparent; color:#666; padding:8px 10px; }
+
+/* Wide primary button */
+.btn--wide{ width:100%; margin-top: 10px; }
+
+/* Timeline overlay */
+.timeline{
+  position: fixed; inset: 0; z-index: 1200;
+  display: block;
+  background: rgba(0,0,0,.92);
+  opacity: 0; pointer-events: none;
+  transition: opacity .35s ease;
+}
+.timeline.is-visible{
+  opacity: 1; pointer-events: auto;
+}
+.timeline.hidden{ display: none; }
+
+.timeline__close{
+  position: absolute; top: max(12px, env(safe-area-inset-top)); right: max(12px, env(safe-area-inset-right));
+  z-index: 2;
+  background: rgba(255,255,255,.12);
+  color: #fff; border: 0; border-radius: 12px; width: 44px; height: 44px;
+  font-size: 24px; line-height: 1; cursor: pointer;
+  backdrop-filter: blur(6px);
+}
+.timeline__close:active{ transform: translateY(1px); }
+
+.timeline__frame{
+  position:absolute; inset:0;
+  display:grid; place-items:center;
+  opacity: 0; transform: scale(1.02);
+  transition: opacity .6s ease, transform .6s ease;
+}
+.timeline__frame.is-active{
+  opacity: 1; transform: scale(1);
+}
+.timeline__frame--image{
+  background: #000 center / cover no-repeat var(--img);
+}
+.timeline__frame--text .timeline__content{
+  padding: 24px;
+  color:#fff; text-align:center;
+  font-weight: 800;
+  letter-spacing: .3px;
+  font-size: clamp(26px, 6vw, 42px);
+}
+
+/* Mobile tuning */
+@media (max-width: 480px){
+  #card{
+    margin: 12px;
+    padding: 18px 16px 20px;
+    border-radius: 14px;
+    box-shadow: 0 14px 28px rgba(0,0,0,.08);
+  }
+  #card h1{
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 10px;
+    letter-spacing: .2px;
+  }
+  #card p{
+    font-size: 16px;
+    line-height: 1.75;
+    margin-bottom: 14px;
+  }
+
+  .modal__dialog{
+    width: min(94vw, 420px);
+    padding: 20px 16px 16px;
+    border-radius: 12px;
+  }
+  .modal__lock{ font-size: 32px; }
+  .modal__title{ font-size: 20px; }
+  .modal__subtitle{ font-size: 14px; }
+
+  /* Larger eye button target */
+  .btn--ghost{ padding: 10px 12px; }
+
+  /* Lighter animation cost on phones */
+  .sentence{ filter: blur(2px); }
+
+  .timeline__close{ width: 42px; height: 42px; font-size: 22px; }
+  .timeline__frame--text .timeline__content{
+    padding: 18px;
+    font-size: clamp(24px, 7vw, 36px);
+  }
+}
+
+/* Honor reduced motion */
+@media (prefers-reduced-motion: reduce){
+  * { animation: none !important; transition: none !important; }
+  #card{ opacity: 1 !important; transform: none !important; }
+  .sentence{ opacity: 1 !important; transform: none !important; filter: none !important; }
+}
+
+/* Fullscreen effects canvas (behind modal, above content) */
+#fx-canvas{
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 900; /* modal uses 1000 */
+  display: block;
+}
+
+/* Reduce cost on small phones */
+@media (max-width: 480px){
+  #fx-canvas{ filter: saturate(.95) }
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce){
+  #fx-canvas{ display:none !important; }
+}

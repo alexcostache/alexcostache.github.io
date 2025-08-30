@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#fffdfa" />
+  <title>Digital Birthday Card</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="js/password.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+
+<body>
+  <!-- Visual effects canvas -->
+  <canvas id="fx-canvas"></canvas>
+
+  <!-- Password Modal -->
+  <div id="password-modal" class="modal shown" role="dialog" aria-modal="true" aria-labelledby="pw-title"
+    aria-hidden="false">
+    <div class="modal__backdrop"></div>
+    <div class="modal__dialog">
+      <div class="modal__lock" aria-hidden="true">🔒</div>
+      <h2 id="pw-title" class="modal__title">Bun venit</h2>
+      <p class="modal__subtitle">Introdu parola pentru a deschide scrisoarea</p>
+
+      <form id="password-form" class="modal__form" autocomplete="off">
+        <label class="sr-only" for="password-input">Parolă</label>
+        <div class="input-wrap">
+          <input id="password-input" type="password" placeholder="Parola" required />
+          <button type="button" id="toggle-visibility" class="btn btn--ghost"
+            aria-label="Arată/ascunde parola">👁️</button>
+        </div>
+        <button type="submit" class="btn btn--primary">Deschide</button>
+        <p id="password-error" class="error" aria-live="polite"></p>
+      </form>
+
+      <p class="modal__hint">Parola este primul nostru alint!</p>
+    </div>
+  </div>
+
+  <!-- Card -->
+  <div id="card" class="hidden">
+    <h1>La Mulți Ani, Soția Mea Minunată!</h1>
+    <p>
+      Astăzi nu sărbătorim doar ziua ta de naștere, ci și tot ce ești tu o femeie extraordinară, o forță blândă
+      care transformă fiecare zi într-un loc mai bun. Fiecare an care trece te face mai înțeleaptă, mai puternică
+      și mai frumoasă în feluri pe care doar cei norocoși ca mine le pot vedea de aproape.
+    </p>
+    <p>
+      Faptul că am primit împreună cheile apartamentului nostru e mai mult decât o realizare materială. E o
+      alegere pe termen lung, un angajament pe care ni-l asumăm împreună, cu responsabilitate și încredere. E
+      un spațiu care va deveni martorul bucuriilor noastre, al planurilor, al serilor liniștite și al
+      dimineților grăbite. E un pas mare, și îl facem împreună, cu dragoste și curaj.
+    </p>
+    <p>
+      Felicitări pentru tot ce ai realizat la muncă, pentru noua ta poziție de supervizor și pentru titlul de
+      angajata anului. Nu e doar o recunoaștere oficială, ci o confirmare a ceea ce știu deja: că ești
+      genul de om care nu se mulțumește cu "destul", ci caută mereu să fie mai bună, mai implicată, mai
+      atentă. Știu câte ore ai pus, câte gânduri, câte momente în care ai ales să nu renunți. Și te admir
+      pentru toate astea si sunt foarte mândru de tine!
+    </p>
+    <p>
+      Dar dincolo de titluri și realizări, tu ești sprijinul meu constant. Ești omul care mă ascultă când nu
+      știu ce să spun, care mă încurajează când nu cred în mine, care râde cu mine când lumea pare prea
+      serioasă. Ești soția mea, prietena mea și uneori, sincer, salvarea mea.
+    </p>
+    <p>
+      Îți mulțumesc că exiști așa cum ești: autentică, curajoasă, imperfectă în cele mai perfecte moduri. Te
+      iubesc nu doar pentru ce faci, ci pentru cine ești când nimeni nu te vede. Pentru felul în care îți
+      legi părul dimineața, pentru cum îți alegi cuvintele când vrei să nu rănești, pentru cum te uiți la
+      mine când crezi că nu observ.
+    </p>
+    <p>
+      La mulți ani, sotia mea. La mulți ani nouă. La mulți ani visurilor care devin realitate, pas cu pas,
+      cu tine alături.
+    </p>
+
+    <!-- Timeline trigger -->
+    <button id="timeline-btn" class="btn btn--primary btn--wide">Surpriză</button>
+  </div>
+
+  <!-- Fullscreen timeline overlay -->
+  <div id="timeline-overlay" class="timeline hidden" aria-hidden="true">
+    <!-- Close button -->
+    <button class="timeline__close" aria-label="Închide">×</button>
+
+    <!-- Frame 1: text -->
+    <div class="timeline__frame timeline__frame--text" data-type="text">
+      <div class="timeline__content">Orice sfârșit</div>
+    </div>
+
+    <!-- Frame 2: image -->
+    <div class="timeline__frame timeline__frame--image" style="--img: url('/img/1.jpg')" data-type="image" aria-hidden="true"></div>
+
+    <!-- Frame 3: text -->
+    <div class="timeline__frame timeline__frame--text" data-type="text" aria-hidden="true">
+      <div class="timeline__content">Este un nou început</div>
+    </div>
+
+    <!-- Frame 4: image -->
+    <div class="timeline__frame timeline__frame--image" style="--img: url('/img/2.jpg')" data-type="image" aria-hidden="true"></div>
+  </div>
+</body>
+
+</html>
